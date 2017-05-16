@@ -11,7 +11,7 @@ void OutputData(){
     tilt = int8_t(Pitch);
     uint8_t DataToSend[20];
     AttitudePackage(DataToSend, Roll, Pitch, Yaw, Height);
-    Serial.write(DataToSend, 20);
+//    Serial.write(DataToSend, 20);
 //    Serial.print("Roll: ");Serial.print(Roll);Serial.print(" ");
 //    Serial.print("Pitch: ");Serial.print(Pitch);Serial.print(" ");
 //    Serial.print("Yaw: ");Serial.print(Yaw);Serial.print(" ");
